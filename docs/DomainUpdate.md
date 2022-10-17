@@ -4,6 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+<<<<<<< HEAD
 **Locked** | Pointer to **bool** | Whether or not the domain should be locked to prevent transfers | [optional] 
 **NameServers** | Pointer to **[]map[string]interface{}** | Fully-qualified domain names for Name Servers to associate with the domain | [optional] 
 **RenewAuto** | Pointer to **bool** | Whether or not the domain should be configured to automatically renew | [optional] 
@@ -180,6 +181,12 @@ SetConsent sets Consent field to given value.
 
 HasConsent returns a boolean if a field has been set.
 
+=======
+**Locked** | **bool** | Whether or not the domain should be locked to prevent transfers | [optional] [default to null]
+**NameServers** | [**[]ErrorUnknown**](.md) | Fully-qualified domain names for Name Servers to associate with the domain | [optional] [default to null]
+**RenewAuto** | **bool** | Whether or not the domain should be configured to automatically renew | [optional] [default to null]
+**SubaccountId** | **string** | Reseller subaccount shopperid who can manage the domain | [optional] [default to null]
+>>>>>>> parent of bf92472 (Fix docs for DomainUpdate NameServers type)
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
