@@ -4,6 +4,5 @@
 
 package godaddy
 
-type RealNameValidation struct {
-	Status string `json:"status,omitempty"`
+type ArrayOfDnsRecord struct {
 }
