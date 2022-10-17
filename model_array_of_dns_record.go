@@ -4,5 +4,5 @@
 
 package godaddy
 
-type ArrayOfDnsRecord struct {
+type ArrayOfDnsRecord interface {
 }
